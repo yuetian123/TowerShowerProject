@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4547416426788607102
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_SpruceLeafes
+  m_Shader: {fileID: 4800000, guid: 8d27561e45493114a9d041271bcbf5b4, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSFORMAT_MASK _FINALCOLOR_ON _LEAFTUMBLING
+    _NORMALMAP _ORM_METALLIC_ON _USEALPHACLIP_ON _USEMETALLICMAP_ON _USESMOOTHNESSMAP_ON
+    _USEWIND_ON _VERTEXAO_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoMap:
+        m_Texture: {fileID: 2800000, guid: de56e75e45d23b446877f44d6d3cd1b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: de56e75e45d23b446877f44d6d3cd1b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpSpecMap:
+        m_Texture: {fileID: 2800000, guid: 2ead43cc16b37764fbb12a8114e43ae9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MASEMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: de56e75e45d23b446877f44d6d3cd1b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 87a74e356d0fcc742b88c40b7b665658, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOMap_Intensity: 1
+    - _AOMap_ORM_Intensity: 1
+    - _AOStrength: 1
+    - _AlbedoLightness: 1
+    - _Albedo_Strength: 1
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AmbientOcclusion: 1
+    - _AmbientReflection: 1
+    - _ApplyNormal: 1
+    - _BendAmount: 1
+    - _Blend: 0
+    - _BlendMode: 1
+    - _BranchBending: 1
+    - _BumpScale: 1
+    - _ClipingCutout: 0.2
+    - _ColorVariation: 0
+    - _Cull: 0
+    - _CullMode: 0
+    - _Cutoff: 0.25
+    - _Cutout: 0.25
+    - _Debug: 0
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DirectDiffuse: 1
+    - _DstBlend: 0
+    - _EMISSFORMAT: 0
+    - _EdgeFlutterInfluence: 0.25
+    - _Emission_Intensity: 1
+    - _EnableLeafTumbling: 1
+    - _EnableLeafTurbulence: 0
+    - _EnableNormalRotation: 0
+    - _EnvironmentReflections: 1
+    - _GlobalWindPower: 0.02
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _IndirectDiffuse: 1
+    - _IsBark: 0
+    - _LeafColorvariatoion: 0.6
+    - _LeafTurbulence: 0.2
+    - _Metallic: 0
+    - _MetallicMap_Intensity: 1
+    - _MetallicMap_ORM_Intensity: 1
+    - _MetallicValue: 0
+    - _NORMALMAPDXGLSWITCH: 0
+    - _NormalBackFaceFixBranch: 0
+    - _NormalIntensity: 0
+    - _NormalScale: 1
+    - _Normal_Scale: 1
+    - _ORM_AO: 0
+    - _ORM_Metallic: 1
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ShadowCulling: 0
+    - _Smoothness: 0
+    - _SmoothnessIntensity: 0
+    - _SmoothnessMap_Intensity: 0
+    - _SmoothnessMax: 0
+    - _SmoothnessMin: 0
+    - _SmoothnessTextureChannel: 0
+    - _SmoothnessValue: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _TranslucencyPower: 8
+    - _TranslucencyRange: 1
+    - _TransparentZWrite: 0
+    - _TumbleFrequency: 1
+    - _TumbleStrength: 0
+    - _UNREALSWITCH: 0
+    - _UV0_OR_UV1: 0
+    - _UVSec: 0
+    - _UseAOMap: 0
+    - _UseAlphaClip: 1
+    - _UseEmissionMap: 0
+    - _UseMetallicMap: 1
+    - _UseRoughnessMap: 0
+    - _UseSmoothnessMap: 1
+    - _UseTranslucent: 0
+    - _UseWind: 1
+    - _VertexAo: 1
+    - _VertexAointensity: 0
+    - _WindAngley: 20
+    - _WindDirection: 1.58
+    - _WindPower: 1
+    - _WindScale: 1
+    - _WorkflowMode: 1
+    - _WorldFrequency: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AlbedoColor: {r: 0.99130434, g: 1, b: 0.8, a: 0}
+    - _BaseColor: {r: 0.89227253, g: 1, b: 0.8867924, a: 1}
+    - _BaseWindMultipliers: {r: 0, g: 0.4, b: 1, a: 0}
+    - _Color: {r: 0.89227253, g: 1, b: 0.8867924, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HueVariation: {r: 0, g: 0.9019608, b: 0.17135325, a: 0.1}
+    - _SpecColor: {r: 0.20707837, g: 0.35849056, b: 0.15218937, a: 1}
+    - _Tint: {r: 0.89227253, g: 1, b: 0.8867924, a: 1}
+    - _Translucency: {r: 0.8, g: 1, b: 0.01, a: 0}
+    - _TranslucencyColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _blackColor: {r: 0, g: 0, b: 0, a: 0}

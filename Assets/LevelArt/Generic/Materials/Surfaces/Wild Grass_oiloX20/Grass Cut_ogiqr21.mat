@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grass Cut_ogiqr21
+  m_Shader: {fileID: 4800000, guid: 031d68ab53499724baa5989aa7e5f2f7, type: 3}
+  m_ShaderKeywords: _EMISSFORMAT3_MASK _EMISSFORMAT_MASK _FINALCOLOR_ON _MASKFORMAT_UV1
+    _METALLICSPECGLOSSMAP _MSAEMAP _MSAEMAP3 _NORMALMAP _NORMALMAP3 _OCCLUSIONMAP
+    _USEALBEDOBLEND_ON _USEAOMAP_ON _USEMETALLICMAP_ON _USESECONDARYAOMAP_ON _USESECONDARYMETALLICMAP_ON
+    _USESECONDARYSMOOTHNESSMAP_ON _USESMOOTHNESSMAP_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 032771fa4aef4a44293dddab49162c07, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap3:
+        m_Texture: {fileID: 2800000, guid: 032771fa4aef4a44293dddab49162c07, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d4722bc2d714ca544af37f0fea785bae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MASEMap:
+        m_Texture: {fileID: 2800000, guid: 7000a1433a9f2f247a3dc2857eefc1fa, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _MASEMap3:
+        m_Texture: {fileID: 2800000, guid: 7000a1433a9f2f247a3dc2857eefc1fa, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 032771fa4aef4a44293dddab49162c07, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: abc00000000012744470454860734083, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 9d285f02351d94e43b67389c2dc23dc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 21067fb736cf6624584ff9c054465ee5, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap3:
+        m_Texture: {fileID: 2800000, guid: 21067fb736cf6624584ff9c054465ee5, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 9d285f02351d94e43b67389c2dc23dc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOMap_Intensity: 1
+    - _AOStrength: 1
+    - _AOStrength3: 1
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _Blend: 0
+    - _BlendMode: 0
+    - _BlendTex_UV0_OR_UV1: 0
+    - _Blend_Intensity: 1
+    - _BumpScale: 1
+    - _Cull: 2
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _Debug: 0
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DirectDiffuse: 1
+    - _DstBlend: 0
+    - _EMISSFORMAT: 0
+    - _EMISSFORMAT3: 0
+    - _Emission_Intensity: 1
+    - _Emission_UV0_OR_UV1: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 1
+    - _Gloss_Or_Smoothness_1: 0
+    - _Gloss_Or_Smoothness_2: 0
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IndirectDiffuse: 1
+    - _MASKFORMAT: 0
+    - _MaskPow: 1
+    - _Metallic: 1
+    - _Metallic3: 1
+    - _MetallicMap_Intensity: 1
+    - _MetallicValue: 0
+    - _Mode: 0
+    - _NORMALMAPDXGLSWITCH: 0
+    - _NormalScale: 1
+    - _NormalScale3: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SecondaryAOMap_Intensity: 1
+    - _SecondaryMetallicMap_Intensity: 1
+    - _SecondaryMetallicValue: 0
+    - _SecondarySmoothnessMap_Intensity: 0
+    - _SecondarySmoothnessValue: 0
+    - _Smoothness: 1
+    - _SmoothnessMap_Intensity: 0.27
+    - _SmoothnessMax: 0.35744378
+    - _SmoothnessMax3: 0.3995787
+    - _SmoothnessMin: 0.13360958
+    - _SmoothnessMin3: 0
+    - _SmoothnessTextureChannel: 0
+    - _SmoothnessValue: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _TransparentZWrite: 0
+    - _UNREALSWITCH: 0
+    - _UVSec: 0
+    - _UseAOBlend: 0
+    - _UseAOMap: 1
+    - _UseAlbedoBlend: 1
+    - _UseEmissionMap: 0
+    - _UseMetallicBlend: 0
+    - _UseMetallicMap: 1
+    - _UseNormalBlend: 0
+    - _UseSecondaryAOMap: 1
+    - _UseSecondaryMetallicMap: 1
+    - _UseSecondarySmoothnessMap: 1
+    - _UseSmoothnessBlend: 0
+    - _UseSmoothnessMap: 1
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0.23602705, g: 0.4811321, b: 0.23964211, a: 1}
+    - _BaseColor3: {r: 0.72405064, g: 0.88, b: 0.61637133, a: 1}
+    - _Color: {r: 0.236027, g: 0.4811321, b: 0.23964208, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor3: {r: 0, g: 0, b: 0, a: 1}
+    - _SecondaryTint: {r: 0.7254902, g: 0.87843144, b: 0.6156863, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tint: {r: 0.23529413, g: 0.48235297, b: 0.2392157, a: 1}
+--- !u!114 &8047593592616265481
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
